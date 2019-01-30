@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_201">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/hibernate-entitymanager-3.5.0-Final.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/hibernate-jpamodelgen-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/hibernate-validator-4.0.2.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/javassist-3.9.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/log4j-over-slf4j-1.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/slf4j-api-1.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/hibernate lib/slf4j-nop-1.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Cursos/IMF/2do Año/Acceso a Datos/hibernate/nuevoHibernate/hibernate-release-5.4.1.Final/lib/jpa-metamodel-generator/hibernate-jpamodelgen-5.4.1.Final.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
