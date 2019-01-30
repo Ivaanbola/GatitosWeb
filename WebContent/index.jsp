@@ -23,30 +23,36 @@
 	<section>
 		<div class="formulario">
 			<h1>Lista Gatos</h1>
-			<table class="lista">
-				<tr>
-					<th>ID</th>
-					<th>Nombre</th>
-					<th>Raza</th>
-					<th>Edad</th>
-					<th>Foto</th>
-				</tr>
-				<%
-					Gatitos gato = new Gatitos();
-					if (gato.listarGatitos() != null)
-						for (Gatitos p : gato.listarGatitos()) {
-				%>
-				<tr>
-					<td><%=p.getId()%></td>
-					<td><%=p.getNombre()%></td>
-					<td><%=p.getRaza()%></td>
-					<td><%=p.getEdad()%></td>
-					<td><%=p.getFoto()%></td>
-					<td><a href="GGatitos?opcion=3&id=<%=p.getId()%>">Editar</a></td>
-				</tr>
-				<%
-					}
-				%>
+			<table class="table">
+				<thead class="thead-dark">
+					<tr>
+						<th scope="col">ID</th>
+						<th scope="col">Nombre</th>
+						<th scope="col">Raza</th>
+						<th scope="col">Edad</th>
+						<th scope="col">Foto</th>
+					</tr>
+				</thead>
+				<tbody>
+					<%
+						Gatitos gato = new Gatitos();
+					int i=0;
+						if (gato.listarGatitos() != null)
+							for (Gatitos p : gato.listarGatitos()) {
+					%>
+
+					<tr>
+						<th scope="row"><%= i++ %></th>
+						<td><%=p.getNombre()%></td>
+						<td><%=p.getRaza()%></td>
+						<td><%=p.getEdad()%></td>
+						<td><%=p.getFoto()%></td>
+						<td><a href="GGatitos?opcion=3&id=<%=p.getId()%>">Editar</a></td>
+					</tr>
+					<%
+						}
+					%>
+				</tbody>
 			</table>
 </body>
 </html>
